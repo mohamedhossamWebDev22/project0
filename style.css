@@ -1,0 +1,533 @@
+body, html {
+    height: 100%;
+
+    background-color: rgb(31, 34, 34);
+  }
+  
+.bg {
+  /* The image used */
+  background-image: url("img.png");
+
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar{
+    background-color: rgb(20, 20, 20);
+    
+    font-size: 50px;
+    font-family: fantasy;
+}
+#navbar a{
+    color: white;
+   
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+
+    padding: 0px 14px;
+}
+#navbar .txt:hover{
+    animation: none hov 2s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.content{
+    margin-top: 10%;
+}
+
+.first{
+    background-image: url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    color: white;
+    background-color: white;
+
+    font-family: sans-serif;
+
+    border-radius: 50px;
+    border: 1px solid white;
+
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+.first h1{
+    padding-top: 3%;
+
+    font-size: 40px;
+}
+.first h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+    padding: 14px 14px;
+
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.second{
+    background-image: url("img4.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    color: white;
+    background-color: white;
+
+    font-family: sans-serif;
+
+    margin-top: 5%;
+
+    border-radius: 50px;
+    border: 1px solid white;
+
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+.second h1{
+    color: goldenrod;
+
+    padding-top: 3%;
+
+    font-size: 40px;
+}
+.second h2{
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+    padding: 14px 14px;
+
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: goldenrod;
+}
+
+.three{
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    color: white;
+    background-color: white;
+
+    font-family: sans-serif;
+
+    margin-top: 5%;
+
+    border-radius: 50px;
+    border: 1px solid white;
+
+    width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+.three h1{
+    color: darkred;
+
+    padding-top: 6%;
+
+    font-size: 40px;
+}
+.three h2{
+    padding-top: 2%;
+    padding-bottom: 10px;
+
+    margin-bottom: 10%;
+
+    padding: 14px 14px;
+
+    font-size: 25px;
+    font-weight: lighter;
+
+    color: white;
+}
+
+.first:hover{
+    animation: none card 1s;
+}
+
+.second:hover{
+    animation: none card 1s;
+}
+
+.three:hover{
+    animation: none card 1s;
+}
+
+.wifi{
+    font-size: 25px;
+    text-align: center;
+
+    float: right;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: green;
+
+    padding: 14px 14px;
+}
+.wifi:hover{
+    animation: none hov2 1s;
+}
+
+
+.leg{
+    border-radius: 50px;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leg .mirage{
+    border: 1px outset white;
+    border-radius: 50px;
+    box-sizing:border-box;
+
+    text-align: center;
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.leg .mirage .pic{
+    width: 180px;
+}
+.leg .mirage h1{
+    margin-left: 2%;
+
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 40px;
+
+    text-align: left;
+
+    border-bottom: 1px solid white;
+
+    /*to make space between word an border*/
+    padding-bottom: 1%;
+}
+.leg .mirage h1 a{
+    color: green;
+}
+.leg .mirage h2{
+    text-align: left;
+    margin-left: 2%;
+
+    color: white;
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.leg .blo{
+    border: 1px outset white;
+    border-radius: 50px;
+    box-sizing:border-box;
+
+    text-align: center;
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.leg .blo .pic{
+    width: 180px;
+}
+.leg .blo h1{
+    margin-left: 2%;
+
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 40px;
+
+    text-align: left;
+
+    border-bottom: 1px solid white;
+
+    /*to make space between word an border*/
+    padding-bottom: 1%;
+}
+.leg .blo h1 a{
+    color: red;
+}
+.leg .blo h2{
+    text-align: left;
+    margin-left: 2%;
+
+    color: white;
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.leg .cau{
+    border: 1px outset white;
+    border-radius: 50px;
+    box-sizing:border-box;
+
+    text-align: center;
+    
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.leg .cau .pic{
+    width: 400px;
+}
+.leg .cau h1{
+    margin-left: 2%;
+
+    color: white;
+
+    font-family: sans-serif;
+    font-size: 40px;
+
+    text-align: left;
+
+    border-bottom: 1px solid white;
+
+    /*to make space between word an border*/
+    padding-bottom: 1%;
+}
+.leg .cau h1 a{
+    color: greenyellow;
+}
+.leg .cau h2{
+    text-align: left;
+    margin-left: 2%;
+
+    color: white;
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.pic:hover{
+    animation: none leg 2s;
+}
+
+.ins{
+    text-align: center;
+
+    border: 1px solid white;
+    border-radius: 50px;
+
+    width: 90%;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    background-image: url("install.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:local;
+}
+.ins button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 30px;
+    font-family: sans-serif;
+
+    background-color: black;
+    
+    border-radius: 10px;
+    border: 1px solid white;    
+}
+.ins button a{
+    color: white;
+
+    text-decoration: none;
+}
+
+.ins .btn{
+    margin-right: 5%;
+}
+.ins button:hover{
+    animation: none card 1.5s;
+}
+
+.about{
+    text-align: center;
+
+    margin-top: 2%;
+    
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.about .pi{
+    border-bottom: 1px solid white;
+}
+.about .pi img{
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+    width: 200px;
+
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.about .pi img:hover{
+    animation: none avatar 1.8s;
+}
+.about h1{
+    font-family:monospace;
+    font-size: 25px;
+
+    color: white;
+}
+.about h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+
+    direction: rtl;
+
+    color: white;
+}
+
+hr{color: white;}
+
+.about .social{
+    margin-top: 2%;
+
+    text-decoration: none;
+}
+.about .social .facebook{
+    color: rgb(31,34,34);
+    background-color: darkred;
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+
+    border-radius: 50px;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: auto;
+}
+.about .social .facebook:hover{
+    animation: none facebook 1.8s;
+}
+.about .social .tiktok{
+    color: rgb(31,34,34);
+    background-color: darkred;
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+
+    border-radius: 50px;
+
+    margin-left: 1%;
+
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: auto;
+}
+.about .social .tiktok:hover{
+    animation: none tiktok 1.8s;
+}
+
+
+
+
+/*==========
+/*animations
+============*/
+@keyframes hov{
+    50% {
+        background-color: darkred;
+        font-size: 55px;
+    }
+}
+
+@keyframes hov2{
+    50% {
+        font-size: 30px;
+    }
+}
+
+@keyframes card{
+    50% {
+        -webkit-filter:contrast(50%);
+        filter: contrast(50%);
+    }
+}
+
+@keyframes leg{
+    50% {
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+
+        background-color: darkred;
+        border-radius: 50px;
+    }
+}
+
+@keyframes facebook{
+    50% {
+        color: white;
+        background-color: rgb(23, 23, 255);
+    }
+}
+
+@keyframes tiktok{
+    50% {
+        color: white;
+        background-color: rgb(0, 0, 0);
+
+        text-shadow: 4px 4px red,-4px -4px cyan;
+    }
+}
+
+@keyframes avatar{
+    50% {
+        box-shadow: 4px 4px red;
+        
+        transform: rotate(25deg);
+
+        margin-right: 2%;
+    }
+}
